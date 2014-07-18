@@ -1,0 +1,8 @@
+This makes scraping twitter for multiple search terms a piece of cake.
+
+Just start a new Python scraper, and type this at the top:
+
+@from scraperwiki import swimport
+swimport('twitter_search').search(['some_phrase', 'from:some_user'])@
+
+Set your scraper to run daily and it'll automatically fill its datastore with the latest tweets.
